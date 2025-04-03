@@ -22,7 +22,7 @@ const StyleQuiz: React.FC = () => {
   };
 
   const handleSubmit = async () => {
-    const response = await fetch('https://color-face-backend.up.railway.app/quiz', {
+    const response = await fetch('https://colorfacebackend-production.up.railway.app/quiz', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

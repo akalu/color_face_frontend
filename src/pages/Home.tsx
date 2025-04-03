@@ -46,7 +46,7 @@ const Home: React.FC = () => {
     formData.append('file', selectedFile);
 
     try {
-      const response = await fetch('https://color-face-backend.up.railway.app/analizar', {
+      const response = await fetch('https://colorfacebackend-production.up.railway.app/analizar', {
         method: 'POST',
         body: formData
       });
